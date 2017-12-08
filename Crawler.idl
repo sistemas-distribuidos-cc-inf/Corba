@@ -1,0 +1,5 @@
+module server {
+  interface CrawlerWeb {
+    string crawler_web( in string seed, in short max_page );
+  };
+};
